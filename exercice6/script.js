@@ -503,11 +503,9 @@ console.log("Exercice 5 chargé ✅");
 
 // Crée un tableau contenant les noms de plusieurs produits (au moins 3).productNames
 productNames=["pull","chaussette","veste"];
-console.log(productNames);
 
 // Crée un tableau contenant leurs prix HT, dans le même ordre.productPricesHT
 productPricesHT=[30.99, 13.5, 70.9 ];
-console.log(productPricesHT);
 
 // Affiche dans la console la longueur du tableau .productNames
 console.log(productNames.length);
@@ -520,22 +518,16 @@ console.log(productNames.length);
 // formate le prix TTC grâce à formatPrice()
 // affiche une ligne du type :
 // "Produit 1 : Mug JS — 14,99 € TTC"
+// console.log(productNames.length)
+
+ 
+
+// displayProductsInConsole()
+
+
 // Appelle la fonction.
+
 // 💡 Cet exercice introduit la logique « deux tableaux synchronisés », avant de passer aux objets dans l’exercice suivant
 
 
 
-// productNames = ["...", "...", "..."]
-// productPricesHT = [12.5, 19.99, 7.5]
-
-// console.log(productNames.length)
-
-// function displayProductsInConsole():
-//     for i allant de 0 à productNames.length:
-//         name = productNames[i]
-//         priceHT = productPricesHT[i]
-//         TTC = calculatePriceTTC(priceHT)
-//         formatted = formatPrice(TTC)
-//         console.log(name + " — " + formatted)
-
-// displayProductsInConsole()
